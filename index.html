@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanofi</title>
+  <style>
+    /* 1. Ensure the body takes up full height and centers content */
+    body, html {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers horizontally */
+      justify-content: flex-start; /* Starts from top */
+    }
+
+    /* 2. Mobile First: The flyer stays 100% width */
+    .flyer {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .flyer img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 0;
+    }
+
+    /* 3. New class to hold the buttons side-by-side */
+    .button-group {
+      display: flex;
+      width: 100%;
+    }
+
+    .button-group a {
+      width: 50%; /* Each button takes up half the width */
+      display: block;
+    }
+
+    /* 4. Desktop Adjustment: Fill the canvas/screen width */
+    @media screen and (min-width: 768px) {
+      .flyer {
+        width: 100vw; 
+        max-width: 1200px;
+      }
+    }
+
+    .unsubscribe-link {
+      padding: 20px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="flyer">
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_1.png" alt="Header"/>
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_2.png" alt="Section 1"/>
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_3.png" alt="Section 2"/>
+    <div class="button-group">
+      <a href="https://www.sanofi.com">
+        <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_4.png" alt="Accept Invite Button"/>
+      </a>
+      <a href="https://www.sanofi.com">
+        <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_5.png" alt="Reject Invite Button"/>
+      </a>
+    </div>
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_6.png" alt="Section 3"/>
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_7.png" alt="Footer Section 1"/>
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_8.png" alt="Footer Section 2"/>
+    </a>
+        <a href="www.sanofi.ma">
+      <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_9.png" alt="Sanofi Contact Email"/>
+    </a>
+    </a>
+        <a href="mailto:Infomed.mco@sanofi.com">
+      <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_10.png" alt="Information Medicine Contact"/>
+    </a>
+    </a>
+        <a href="mailto:pharmacovigilance.maroc@sanofi.com">
+      <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_11.png" alt="pharmacovigilance"/>
+    </a>
+    <img src="https://raw.githubusercontent.com/Sirkil/sanofi_html_assets/main/assets/Asset_12.png" alt="MAT Code"/>
+    
+    <!-- <div class="unsubscribe-link">
+      <a href="[unsubscribe url]">Unsubscribe</a>
+    </div> -->
+  </div>
+</body>
+</html>
